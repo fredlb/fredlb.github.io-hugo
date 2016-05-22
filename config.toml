@@ -1,0 +1,69 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "https://fredlb.github.io/"
+
+# Site title
+title = "Blog"
+
+# Copyright
+copyright = "(c) 2016 Fredrik Lindner."
+
+# Language
+languageCode = "en-EN"
+
+# Metadata format
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hyde-y"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Fredrik Lindner"
+    email = "fredrik.lindner@gmail.com"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # You can use markdown here.
+    brand = "Fredrik L."
+    topline = "Collecting dust since day 1!"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+
+    # Sidebar social links.
+    github = "fredlb" # Your Github profile ID
+    twitter = "prayforbacon" # Your Twitter profile ID
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
