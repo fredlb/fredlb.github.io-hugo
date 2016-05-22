@@ -4,4 +4,4 @@ title = "About"
 +++
 
 I push buttons on computers so others can push buttons on computers.  
-Full-stack developer at Epidemic Sound.
+Developer at Epidemic Sound.
