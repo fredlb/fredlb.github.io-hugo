@@ -1,5 +1,8 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "https://fredlb.github.io/"
+contentdir = "content"
+publishdir = "public"
+canonifyurls = true
 
 # Site title
 title = "Blog"
